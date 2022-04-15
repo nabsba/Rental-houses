@@ -1,0 +1,12 @@
+.article_house:hover {
+	cursor:pointer;
+}
+
+.article_house_image {
+	position: relative;
+	width: 100%;
+	height: 30rem
+}
+
+
+

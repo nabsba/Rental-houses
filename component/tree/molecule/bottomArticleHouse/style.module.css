@@ -1,0 +1,25 @@
+
+
+.article_house span {
+	font-size: 1.2rem;
+}
+
+.article_house_bottom {
+	display:flex;
+	flex-direction: column;
+}
+
+.article_part_one {
+	display: flex;
+	justify-content: space-between;
+}
+
+.article_part_one span:nth-child(2) {
+	color: red !important;
+}
+
+.article_part_three {
+	display:flex;
+	justify-content: space-between;
+
+}

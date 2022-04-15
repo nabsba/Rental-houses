@@ -1,0 +1,21 @@
+.image_and_button {
+	position: relative;
+	height: 60rem;
+	margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.image_and_button button {
+	width: max-content;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 770px) {
+	.image_and_button {
+    margin-left: -2rem;
+    margin-right: -2rem;
+	}
+}

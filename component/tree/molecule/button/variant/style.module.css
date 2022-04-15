@@ -1,0 +1,7 @@
+.button_variant {
+	background-color: inherit;
+}
+
+.button_variant span {
+	color: inherit !important;
+}

@@ -1,0 +1,8 @@
+.type_filter span:hover {
+	cursor: pointer;
+}
+
+.type_filter_sub_wrapper div {
+	margin: 0 !important;
+	width:100%;
+}

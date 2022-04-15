@@ -1,0 +1,11 @@
+.button_original button {
+	background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+	width: max-content;
+	border-radius: 10px;
+	color: white;
+	padding:.5vw 3vw;
+}
+
+.button_original button span {
+	color:white !important;
+}

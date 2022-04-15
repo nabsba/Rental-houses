@@ -1,0 +1,33 @@
+.article_houses_group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.article_house_wrapper {
+	border-radius: var(--border-radius);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	width: 100vw;
+}
+
+.article_house_wrapper img {
+	border-radius: var(--border-radius) var(--border-radius)  0 0;
+}
+
+.article_house_wrapper:hover {
+	cursor: pointer;
+}
+
+@media only screen and (min-width: 500px) {
+
+	.article_house_wrapper {
+		width: 46.5vw;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.article_house_wrapper {
+		width: 30vw;
+	}
+}

@@ -1,0 +1,25 @@
+.error_boundary {
+	grid-column: 1/5;
+	margin-left: var(--margin-section-side);
+	margin-right: var(--margin-section-side);
+}
+
+.error_boundary h3 {
+	margin-left: 0rem !important;
+	text-transform: inherit;
+}
+
+.error_boundary .navigation_as_component {
+display: inline-block
+}
+
+/* .error_boundary p {
+	margin-top: 
+} */
+@media only screen and (min-width: 770px) {
+	.error_boundary {
+		grid-column: 1/13;
+		margin-left: clamp(1rem, calc(var(--margin-section-side) + 2rem), 3.1rem);
+		margin-right: clamp(1rem, calc(var(--margin-section-side) + 2rem), 3.1rem);
+	}
+}

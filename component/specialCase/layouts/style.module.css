@@ -1,0 +1,17 @@
+.layout_one {
+		padding-left:var(--margin-left-right-body);
+		padding-right: var(--margin-left-right-body);
+		position:relative;
+}
+
+.filter_fragment_submit {
+	width: max-content;
+    align-self: center;
+}
+@media only screen and (min-width: 770px) {
+
+	.layout_one {
+			padding-left: calc(var(--margin-left-right-body) + 1rem);
+		padding-right: calc(var(--margin-left-right-body) + 1rem);
+}
+ }

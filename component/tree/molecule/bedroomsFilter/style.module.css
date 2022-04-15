@@ -1,0 +1,23 @@
+.bedrooms_filter {
+	display:flex;
+	flex-direction: column;
+}
+.bedrooms_filter div {
+	width: 100%;
+	margin:0;
+}
+
+.bedrooms_filter_number_wrapper div {
+	cursor: pointer;
+}
+
+
+.bedrooms_filter_number_wrapper span {
+	color: inherit !important;
+	font-size:1rem !important;
+}
+
+
+.bedrooms_filter_number_wrapper button {
+border-radius: 50%;
+}

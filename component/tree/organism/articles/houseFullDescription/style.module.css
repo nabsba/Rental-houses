@@ -1,0 +1,121 @@
+.house_full_description_bottom_article_house p {
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	line-height: 32px;
+}
+
+.house_full_description_bottom_article_house {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.house_full_description_bottom_article_house .markup,
+.house_full_description_bottom_article_house .google_place_map {
+	width: 100%;
+}
+
+.google_place_map {
+	width: 100%;
+}
+
+.house_full_description_markup {
+	font-size: 1rem;
+}
+
+.house_full_description {
+	padding: 0 !important;
+}
+
+.house_full_description :global .slick-current {
+	width: 100vw !important;
+
+}
+
+.image_of_the_house_wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+.house_full_description :global .slick-dots li {
+	height: 20vh;
+	margin: .2rem;
+	width: 100vw !important;
+	margin-bottom: 1rem;
+}
+
+.house_full_description :global .slick-list {
+	margin-bottom: 2rem;
+
+}
+
+.house_full_description :global .slick-dots {
+	justify-content: space-between;
+}
+
+@media only screen and (min-width: 945px) {
+	.house_full_description :global .slick-dots li {
+		height: 20rem;
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+	.house_full_description :global .slick-dots li {
+		width: 48% !important;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.house_full_description :global .slick-dots li {
+		width: 32.5% !important;
+	}
+}
+
+
+.house_full_description li {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.house_full_description :global .article_house_bottom_global {
+	font-weight: 600;
+	padding: 0 !important;
+}
+
+@media only screen and (min-width: 500px) {
+
+	.markup,
+	.google_place_map {
+		width: 48%;
+	}
+}
+
+.house_full_description_markup {
+	font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 500px) {
+	.house_full_description_markup {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 770px) {
+	.house_full_description_markup {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 1449px) {
+	.house_full_description_markup {
+		font-size: 2.5rem;
+	}
+}
+
+
+
+.house_full_description :global .slick-list .slick-current .image_of_the_house_wrapper {
+	height: 60rem !important;
+}

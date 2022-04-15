@@ -1,0 +1,25 @@
+/* @import '../../../../Common/css/variable.css'; */
+
+.title_h3 {
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	font-weight: 400;
+	/* margin-bottom:var(--margin-bottom-.title_h3) ; */
+}
+
+@media only screen and (min-width: 500px) {
+	.title_h3 {
+		font-size: 2rem;
+	}
+}
+@media only screen and (min-width: 770px) {
+	.title_h3 {
+		font-size: 2.3rem;
+	}
+}
+
+@media only screen and (min-width: 1449px) {
+	.title_h3 {
+		font-size: 3rem;
+	}
+}

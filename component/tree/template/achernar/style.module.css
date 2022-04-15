@@ -1,0 +1,17 @@
+.achernar_part_three {
+	overflow: auto;
+}
+.filter_houses_and_pagination nav {
+	display:flex;
+}
+.filter_houses_and_pagination nav ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.filter_houses_and_pagination nav ul {
+  margin:auto !important;
+}
+
+.filter_houses_and_pagination nav ul li {
+	padding: .2rem;
+}

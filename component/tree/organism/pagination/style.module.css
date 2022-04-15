@@ -1,0 +1,11 @@
+.pagination {
+	width: max-content;
+	margin: auto;
+}
+
+.pagination button {
+	border: none;
+}
+.button_pagination button {
+	background-color: inherit !important;
+}
